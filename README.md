@@ -1,4 +1,31 @@
-# MasterClass: Automating Workflows with AI & n8n
+### Welcome to this MasterClass on n8n!
+In this video, we will take you step by step from scratch to becoming an expert in building applications with n8n. Throughout this tutorial, you will learn how to integrate various tools and configurations to automate and optimize processes.
+
+This content has been made possible thanks to a special collaboration with Nate Herk, a renowned n8n specialist, who generously allowed us to translate and share part of his material in Spanish. A big shoutout and many thanks to Nate and his community for their support and collaboration!
+
+If you want to access the original English version of this tutorial, you can do so via the following link:
+
+Link to Nate Herk's English version:
+```bash
+
+https://www.youtube.com/watch?v=ZHH3sr234zY&t=3498s
+
+```
+
+Tutorial Index
+In this tutorial, we cover the following topics:
+
+Running an app for end users with Streamlit
+Repository: https://github.com/Josh1313/Streamlit_n8n_chat_llm/tree/main
+
+Required configurations for this tutorial:
+
+Install Waha on your VM: https://youtu.be/m4kKYepl9rE
+Install DeepSeek with Ollama on your VM: https://youtu.be/6MgaC63Qicc
+Set up PostgreSQL with Supabase: https://youtu.be/WSiPArjTS2Y
+Set up Pinecone for Vector Databases: https://youtu.be/Mh-W_1guzS4
+Configure Gmail and Google Sheets with the Google Console API: https://youtu.be/H5JyT1lM_yc
+Don't forget to like the video, subscribe, and turn on notifications for more content about n8n and automation!
 
 ## ⏳ Time Periods & Topics
 
@@ -40,11 +67,11 @@ Email Body
 ---
 ### **39:10 - 44:06** Introduction to RAG Systems, Vector Databases, and Embeddings  
 ### **44:07 - 1:09:43** Second Workflow: Streamlit + OpenAI + Vector Databases + Webhooks  
-
+### Source for prompt ** defined below**
+### text {{ $json.ChatInput }}
 #### 📌 Required OpenAI Prompt for RAG System
 
 ```plaintext
-Role:
 Role:
 You are a friendly and helpful Nike representative, here to assist users with any questions about Nike's earnings. You have access to a vector database containing up-to-date financial information, including revenue, profits, and other earnings-related data.
 
@@ -90,6 +117,7 @@ Let me know if you'd like more details on specific regions or product lines. I�
 ### **01:09:54 - 01:17:41** Expansion of AI Agents  
 ### **01:17:47 - 01:35:21** Third Workflow: WhatsApp Integration with AI
 
+### Source for prompt ** defined below**
 #### 📌 AI Role for WhatsApp Assistant
 
 ```plaintext
