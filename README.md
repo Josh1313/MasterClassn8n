@@ -21,10 +21,15 @@ Repository: https://github.com/Josh1313/Streamlit_n8n_chat_llm/tree/main
 Required configurations for this tutorial:
 
 Install Waha on your VM: https://youtu.be/m4kKYepl9rE
+
 Install DeepSeek with Ollama on your VM: https://youtu.be/6MgaC63Qicc
+
 Set up PostgreSQL with Supabase: https://youtu.be/WSiPArjTS2Y
+
 Set up Pinecone for Vector Databases: https://youtu.be/Mh-W_1guzS4
+
 Configure Gmail and Google Sheets with the Google Console API: https://youtu.be/H5JyT1lM_yc
+
 Don't forget to like the video, subscribe, and turn on notifications for more content about n8n and automation!
 
 ## ⏳ Time Periods & Topics
